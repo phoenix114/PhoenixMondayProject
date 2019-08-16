@@ -1,0 +1,175 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User in on the School Login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 184751000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User1 on the web page and login username \"SchoolLogIn\" and password \"SchoolPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 4
+                },
+                {
+                  "val": "\"SchoolLogIn\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"SchoolPassword\"",
+                  "offset": 68
+                }
+              ],
+              "location": "SchoolStudentDelete_steps.user_on_the_web_page_and_login_username_and_password(Integer,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1322338200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User1 is clicking on LogIn Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 4
+                }
+              ],
+              "location": "SchoolStudentDelete_steps.user_is_clicking_on_LogIn_Button(Integer)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5048306700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.logInPage()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Deleting a Student",
+        "description": "",
+        "id": "deleting-student-to-the-school-database;deleting-a-student",
+        "after": [
+          {
+            "result": {
+              "duration": 380900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 230926000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on the Students dropdown",
+            "match": {
+              "location": "SchoolStudentDelete_steps.user_clicks_on_the_Students_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 328985200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on All Students",
+            "match": {
+              "location": "SchoolStudentDelete_steps.user_clicks_on_All_Students()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143230700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User will click on dropdown toggle next to the students name",
+            "match": {
+              "location": "SchoolStudentDelete_steps.user_will_click_on_dropdown_toggle_next_to_the_students_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4145136400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User will click on Delete button",
+            "match": {
+              "location": "SchoolStudentDelete_steps.user_will_click_on_Delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Tester verifies that Students name nolonger is in DataBase",
+            "match": {
+              "location": "SchoolStudentDelete_steps.tester_verifies_that_Students_name_nolonger_is_in_DataBase()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bea1"
+          },
+          {
+            "name": "@Munevver\u0026Bilal"
+          }
+        ]
+      }
+    ],
+    "name": "Deleting Student to the School database",
+    "description": "",
+    "id": "deleting-student-to-the-school-database",
+    "keyword": "Feature",
+    "uri": "src/test/resources/schoolFeatures/studentDelete.feature",
+    "tags": [
+      {
+        "name": "@Bea1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
